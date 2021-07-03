@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\foreach \n in {1,...,${1:n}}{${0:Expresión}}
+]]></content>
+	<tabTrigger>fore</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

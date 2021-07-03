@@ -1,0 +1,93 @@
+<snippet>
+	<content><![CDATA[
+\documentclass[10pt,a4paper]{article}
+\usepackage{fullpage}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{${1:Font}}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+%---------------------------------------------------------
+%           PAQUETES PARA MODIFICAR LA APARIENCIA DE SECCIONES Y SUBSECCIONES.
+	\usepackage{titlesec}
+	\titleformat*{\section}{\large\normalfont\bfseries\centering}
+	\titleformat*{\subsection}{\large\itshape \centering}
+	\setcounter{secnumdepth}{0}
+	\renewcommand*{\contentsname}{\large\textbf{CONTENIDOS.}}
+	\usepackage[nottoc,numbib]{tocbibind}
+	\renewcommand{\refname}{REFERENCIAS.}
+%---------------------------------------------------------
+\usepackage{tikz}
+\usepackage{xcolor}
+%---------------------------------------------------------
+%						PAQUETES PARA MODIFICAR LA ENTRADA MATEMÁTICA.
+	\newcommand{\operator}[1]{\mathop{\vphantom{\sum}\mathchoice
+	{\vcenter{\hbox{\huge \$#1\$}}}
+	{\vcenter{\hbox{\Large \$#1\$}}}{#1}{#1}}\displaylimits}
+	\newcommand{\suma}{\operator{\includegraphics[scale=0.09]{FOTOS/Sigma.png}}}
+	\usepackage{expl3}
+	\DeclareSymbolFont{italics}{\encodingdefault}{\rmdefault}{m}{it}
+	\DeclareSymbolFontAlphabet{\mathit}{italics}
+	\ExplSyntaxOn
+	\int_step_inline:nnnn { `A } { 1 } { `Z }
+	 {  \exp_args:Nf \DeclareMathSymbol{\char_generate:nn{#1}{11}}{\mathalpha}{italics}{#1} }
+	\int_step_inline:nnnn { `a } { 1 } { `z } {  \exp_args:Nf \DeclareMathSymbol{\char_generate:nn{#1}{11}}{\mathalpha}{italics}{#1}}
+	\ExplSyntaxOff
+%---------------------------------------------------------
+\usepackage[letterspace=-50]{letterspace}
+\newcommand{\dis}{\displaystyle}
+\newcommand{\qed}{\hspace{0.5cm}\rule{0.16cm}{0.4cm}}
+\begin{document}
+\pagestyle{empty}
+\lsstyle
+\begin{titlepage}
+	\centering
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.5]{FOTOS/logo_uaa.png}  
+	\end{figure}
+	{\bfseries\Large\MakeUppercase{\textit{Universidad Autónoma de Aguascalientes.}} \par}
+	\vspace{1cm}
+	{\Large Centro de Ciencias Básicas. \vspace{0.5cm}\\\\
+	Departamento de Matemáticas y Física.\vspace{0.5cm}\\\\
+	Licenciatura en Matemáticas Aplicadas.\vspace{0.5cm}\\\\
+	6 -- A. \vspace{0.5cm}\\\\
+	Práctica \#${1:Número}.\par}
+	\vspace{1.5cm}
+	{\bfseries\Huge ${2:Title} \par}
+	\vspace{1.5cm}
+	{\itshape\Large  ${3:A}${3/(A)$|(C)$|(I)$|(Me)$|(Mu)$|(.*)/(?1:nálisis Matemático.\\\\Prof. Fausto Contreras.)(?2:alor, Ondas y Fluidos.\\\\Prof. Edgar Saucedo Casas.)(?3:O. III.\\\\Prof. Karla M. Martínez González)(?4:taheurística.\\\\Prof. Julio Cesar Ponce Gallegos.)(?5:estreo.\\\\Prof. José de Jesús Jiménez Martínez.)/} \par}
+	\vfill
+	{\Large Autores: \par}
+	{\Large \textit{J. Beltrán --- M. Llamas --- E. Rodríguez.}\par}
+	\vfill
+	{\Large ${5:Date}, 2021. \par}
+\end{titlepage} 
+\tableofcontents
+\newpage
+\section{OBJETIVOS.}
+$0
+\section{INTRODUCCIÓN.}
+
+\section{MARCO TEÓRICO.}
+
+\section{MATERIALES.}
+
+\section{METODOLOGÍA.}
+
+\section{RESULTADOS.}
+
+\section{DISCUSIÓN DE RESULTADOS.}
+
+\section{CONCLUSIONES.}
+
+% \bibliography{Referencias}
+% \bibliographystyle{unsrt}
+
+\end{document}
+]]></content>
+	<tabTrigger>pra</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

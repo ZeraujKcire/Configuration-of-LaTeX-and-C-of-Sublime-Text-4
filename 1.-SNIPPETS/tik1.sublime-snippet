@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\begin{tikzpicture}
+  \draw $0
+\end{tikzpicture}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>tik1</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	 <scope>text.tex</scope> -->
+</snippet>

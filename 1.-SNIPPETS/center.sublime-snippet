@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\begin{center}
+  $0
+\end{center}
+]]></content>
+	<tabTrigger>cen</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

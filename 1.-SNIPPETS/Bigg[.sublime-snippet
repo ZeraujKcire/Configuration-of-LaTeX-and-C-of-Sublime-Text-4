@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\Bigg[$0\Bigg] 
+]]></content>
+	<tabTrigger>Squu</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

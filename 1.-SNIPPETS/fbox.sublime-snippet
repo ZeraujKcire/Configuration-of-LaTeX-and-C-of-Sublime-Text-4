@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\noindent\fbox{\parbox{\textwidth}{\vspace{0.2cm}\textbf{${1:T}${1/(T)$|(D)$|(C)$|(L)$|(.*)/(?1:eorema.)(?2:efinición.)(?3:orolario.)(?4:ema.)/}} ${0:Body}}}\\\\\\\
+]]></content>
+	<tabTrigger>fbo</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

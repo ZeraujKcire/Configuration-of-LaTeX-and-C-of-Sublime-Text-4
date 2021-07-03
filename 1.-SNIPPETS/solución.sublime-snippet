@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\textbf{Solución.} 
+]]></content>
+	<tabTrigger>sol</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

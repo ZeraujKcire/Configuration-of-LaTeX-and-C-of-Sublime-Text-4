@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+\\underline{$0}
+]]></content>
+   <tabTrigger>undl</tabTrigger> 
+   <scope>text.tex</scope>
+</snippet>

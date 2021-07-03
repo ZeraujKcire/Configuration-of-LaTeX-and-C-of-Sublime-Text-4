@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+\begin{figure}[h]
+  \centering
+  \begin{tikzpicture}%[scale=${0:0.8}${1:,>=latex}]
+    \draw $2
+  \end{tikzpicture}
+\end{figure}
+]]></content>
+	<tabTrigger>tik</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

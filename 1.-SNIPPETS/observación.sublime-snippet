@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\textbf{Observación.} 
+]]></content>
+	<tabTrigger>obs</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

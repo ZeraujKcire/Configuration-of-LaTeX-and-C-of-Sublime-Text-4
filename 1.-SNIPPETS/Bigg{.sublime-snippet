@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\Bigg\\{$0\Bigg\\}
+]]></content>
+	<tabTrigger>Curr</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

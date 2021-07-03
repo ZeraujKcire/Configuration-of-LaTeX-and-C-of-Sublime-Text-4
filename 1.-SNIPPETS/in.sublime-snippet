@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\in 
+]]></content>
+	<tabTrigger>in</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

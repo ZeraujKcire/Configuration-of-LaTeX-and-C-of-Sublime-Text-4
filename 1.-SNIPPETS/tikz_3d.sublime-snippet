@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+% añade el paquete \usepackage{tikz-3dplot}
+%\tdplotsetmaincoords{10}{0}
+\begin{tikzpicture}%[tdplot_main_coords]
+		\filldraw  [ green ] (1,0,0) circle(2pt) node {\hspace{4mm}\$x\$};		
+		\filldraw  [ blue  ] (0,1,0) circle(2pt) node {\hspace{4mm}\$y\$};
+		\filldraw  [ red   ] (0,0,1) circle(2pt) node {\hspace{4mm}\$z\$};
+		\filldraw  [ black ] (0,0,0) circle(2pt) node {\hspace{4mm}\$0\$};
+		$0
+\end{tikzpicture}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tik3</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex</scope>
+</snippet>

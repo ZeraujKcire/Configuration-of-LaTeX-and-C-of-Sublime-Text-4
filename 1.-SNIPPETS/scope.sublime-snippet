@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\begin{scope}[${1:shift={(${2:posx},${3:posy})}}${4:,rotate=${5:45}}]
+  $0
+\end{scope}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sco</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	 <scope>text.tex</scope> -->
+</snippet>

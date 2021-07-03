@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\begin{array}{${1:rcl}}
+  %COPIA Y PEGA PRIMERO LAS MARCAS ANTES DE ESCRIBIR
+  $0${1/((?<=.)c|l|r)|./(?1: & )/g}  \\\\[2mm]
+\end{array}
+]]></content>
+	<tabTrigger>arr</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

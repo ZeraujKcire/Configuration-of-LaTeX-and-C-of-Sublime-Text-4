@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\renewcommnd{${1:name}}{${0:definition}}
+]]></content>
+	<tabTrigger>ren</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

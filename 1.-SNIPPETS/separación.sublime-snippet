@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+
+\begin{minipage}{${1:0.5}\linewidth}
+  $3
+\end{minipage}
+\begin{minipage}{${2:0.5}\linewidth}
+  $0
+\end{minipage}
+]]></content>
+	<tabTrigger>sep</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

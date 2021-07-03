@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\langle ${0:content} \rangle 
+]]></content>
+	<tabTrigger>ang</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

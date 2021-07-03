@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\Vertex[shape=${1:circle},x=${2:pos1},y=${3:pos2}]{${0:name}}
+]]></content>
+	<tabTrigger>ver</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

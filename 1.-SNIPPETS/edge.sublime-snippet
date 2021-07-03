@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\Edge[path={${1:inicio},{${2:posx},${3:posy}},${4:final}}](${1:inicio})(${4:final})
+]]></content>
+	<tabTrigger>edg</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+/******************************************************************************
+
+                       	 ${1:ANT COLONY WITH BAGPACK PROBLEM.}
+
+                          Por Erick I. Rodríguez Juárez.
+                                Metaheurísticas 2.
+                                 6to Semestre.
+
+*******************************************************************************/
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <limits>
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	srand(time(NULL));
+  setlocale(LC_ALL,"spanish");
+	//                      PANTALLA INICIAL.
+  cout<<"*******************************************************************************";
+  cout<<"\n\n\t\t\t ${1:ANT COLONY WITH BAGPACK PROBLEM.}\n\n";
+  cout<<"*******************************************************************************";
+  cout<<"\n\n ${2:Este programa ${3:toma ciudades y trata de obtener el recorrido mínimo entre ellas. }}";
+  //                      DATOS DEL PROBLEMA.
+  cout<<"\n\n\t\t\t DATOS.\n";
+  $0
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ini</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>

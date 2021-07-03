@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\begin{minipage}{${1:num}\linewidth}
+  ${0:Body}
+\end{minipage}
+]]></content>
+	<tabTrigger>mini</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

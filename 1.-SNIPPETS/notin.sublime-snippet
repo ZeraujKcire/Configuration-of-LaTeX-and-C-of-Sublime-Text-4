@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\notin 
+]]></content>
+	<tabTrigger>not</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

@@ -1,0 +1,30 @@
+{
+	// "mini_auto_complete":true,
+	"tab_completion":false,
+	"auto_complete": false,
+	// "auto_completion":true,
+ //  "auto_complete_commit_on_tab": true,
+ //  "auto_close_tags":false,
+  // "auto_match_enabled": true,
+	"caret_extra_width": 10,
+	"caret_style": "solid",
+	"color_scheme": "Packages/Agila Theme/Agila Monokai Extended.tmTheme",
+	"dictionary": "Packages/Language - Spanish/es_ES.dic",
+	"fade_fold_buttons": false,
+	"font_face": "Victor Mono SemiBold",
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"mini_diff": false,
+	"new_window_settings":
+	{
+		"menu_visible": false,
+	},
+	"show_full_path": false,
+	"tab_size": 2,
+	"theme": "One Dark.sublime-theme",
+	"update_check": false,
+	"wide_caret": true,
+}

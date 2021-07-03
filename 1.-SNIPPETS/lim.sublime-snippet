@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\dis\lim_{${1:n} \rightarrow ${0:\infty}}
+]]></content>
+	<tabTrigger>lim</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

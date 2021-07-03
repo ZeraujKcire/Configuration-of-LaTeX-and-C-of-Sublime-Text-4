@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Agila Theme",
+		"AlignTab",
+		"Base16 Color Schemes",
+		"Language - Spanish",
+		"LaTeXTools",
+		"LaTeXYZ",
+		"Materialize",
+		"multiAlign",
+		"One Dark Material - Theme",
+		"Origami",
+		"Package Control",
+		"PackageResourceViewer",
+		"RemoteCollab",
+		"SASS Snippets",
+		"Theme - Glacier",
+		"Theme - One Dark",
+	],
+}

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\node${1:[${2:position}]} at (${3:point}){${0:Body}};
+]]></content>
+	<tabTrigger>nod</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

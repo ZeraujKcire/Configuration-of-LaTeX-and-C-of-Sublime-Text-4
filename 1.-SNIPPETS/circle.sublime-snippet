@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+($1) circle(${2:2pt});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>cir</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	 <scope>text.tex</scope> -->
+</snippet>

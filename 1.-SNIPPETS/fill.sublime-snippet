@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\fill 
+]]></content>
+	<tabTrigger>fi</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

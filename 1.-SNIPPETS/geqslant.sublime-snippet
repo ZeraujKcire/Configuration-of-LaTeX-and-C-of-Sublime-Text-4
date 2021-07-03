@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\geqslant 
+]]></content>
+	<tabTrigger>geq</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>

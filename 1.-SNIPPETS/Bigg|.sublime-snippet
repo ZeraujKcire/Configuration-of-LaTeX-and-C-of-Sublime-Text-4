@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\Bigg|
+]]></content>
+	<tabTrigger>Bll</tabTrigger>	
+	<scope>text.tex</scope>
+</snippet>
